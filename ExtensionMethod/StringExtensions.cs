@@ -2,9 +2,9 @@
 
 namespace ExtensionMethod
 {
-    public static class ReverseExtension
+    public static class StringExtensions
     {
-        public static string StringReverse(this string word)
+        public static string ReverseString(this string word)
         {
             var toArray = word.ToCharArray();
             Array.Reverse(toArray);
